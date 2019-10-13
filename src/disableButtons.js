@@ -1,6 +1,6 @@
 'use strict';
 
-var designModeIsOn = document.designMode === 'on';
+var designModeIsOn = getChromeVersion() < 64 ? HTMLDocument.designMode === 'on' : document.designMode === 'on';
 var buttons = document.getElementsByTagName('button');
 var disableAnchors = function(e) {
     e.preventDefault();
