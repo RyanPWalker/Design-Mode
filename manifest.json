@@ -1,6 +1,6 @@
 {
   "name": "Design Mode",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Edit a webpage's text",
   "manifest_version": 2,
   "minimum_chrome_version": "45",
@@ -9,6 +9,7 @@
     "activeTab"
   ],
   "browser_action": {
+    "default_icon": "images/greyscaleCursor32.png",
     "default_title": "Enable Design Mode"
   },
   "icons": {
